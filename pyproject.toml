@@ -5,6 +5,10 @@ description = "This project aims to create a transfer learning algorithm using B
 authors = ["Pedro-A-D-S <pedroalves0409@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+packages = [
+    { include = "source" },
+    { include = "utils" }
+]
 
 [tool.poetry.dependencies]
 python = "3.8.18"
